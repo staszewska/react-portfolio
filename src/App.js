@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import { Outlet } from "react-router-dom";
 import MainPage from "./components/MainPage";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -8,7 +9,8 @@ function App() {
   return (
     <div className="main-content">
       <Header />
-      <MainPage />
+      {/* This will render the matched route component */}
+      <Outlet />
       <Footer />
     </div>
   );
