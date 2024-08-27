@@ -32,7 +32,14 @@ const AboutMe = () => {
           </Row>
 
           <Row>
-            <Col md={{ span: 8, offset: 2 }} xs={12}>
+            <Col
+              md={{ span: 8, offset: 2 }}
+              xs={12}
+              style={{
+                borderTop: "1px solid #c8b6ff",
+                borderBottom: "1px solid #c8b6ff",
+              }}
+            >
               <p className="about-me__details text-center">
                 I'm Gosia, a former flight attendant with a passion for
                 exploring not just the skies, but also the vast world of
