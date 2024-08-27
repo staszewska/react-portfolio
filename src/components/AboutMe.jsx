@@ -14,13 +14,10 @@ import {
   faCss3Alt,
 } from "@fortawesome/free-brands-svg-icons";
 import { faNetworkWired } from "@fortawesome/free-solid-svg-icons";
-import Header from "./Header";
-import SocialMedia from "./Footer";
 
 const AboutMe = () => {
   return (
     <>
-      <Header />
       <section className="about-me">
         <Container>
           <h1 className="text-center">About Me</h1>
