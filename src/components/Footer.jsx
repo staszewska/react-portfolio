@@ -8,7 +8,12 @@ function Footer() {
     <>
       <footer className="page-footer">
         <Row>
-          <Col lg={{ span: 4, offset: 4 }} xs={12} className="text-center">
+          <Col
+            lg={{ span: 4, offset: 4 }}
+            xs={12}
+            className="text-center"
+            style={{ "padding-top": "35px" }}
+          >
             <h2>Find me on:</h2>
             <div className="social-media">
               <a
