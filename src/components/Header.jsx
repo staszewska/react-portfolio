@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import { FaBars } from "react-icons/fa"; // hamburger icon
+import { Link } from "react-router-dom";
 
 function Header() {
   return (
@@ -12,16 +13,16 @@ function Header() {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav" className="basic-navbar">
           <Nav className="mr-auto">
-            <Nav.Link className="navbar-link" href="index.html">
+            <Nav.Link className="navbar-link" as={Link} to="/">
               home
             </Nav.Link>
-            <Nav.Link className="navbar-link" href="about.html">
+            <Nav.Link className="navbar-link" as={Link} to="aboutme">
               about me
             </Nav.Link>
-            <Nav.Link className="navbar-link" href="work.html">
+            <Nav.Link className="navbar-link" as={Link} to="work">
               my projects
             </Nav.Link>
-            <Nav.Link className="navbar-link" href="contact.html">
+            <Nav.Link className="navbar-link" as={Link} to="contact">
               contact
             </Nav.Link>
           </Nav>
