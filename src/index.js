@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./components/MainPage.jsx";
 import AboutMe from "./components/AboutMe.jsx";
+import Projects from "./components/Projects.jsx";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -17,7 +18,7 @@ root.render(
           {/* Nested routes will be rendered inside App's Outlet */}
           <Route index element={<MainPage />} />
           <Route path="aboutme" element={<AboutMe />} />
-          {/* <Route path="work" element={<Projects />} /> */}
+          <Route path="work" element={<Projects />} />
         </Route>
       </Routes>
     </BrowserRouter>
