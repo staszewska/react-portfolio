@@ -19,7 +19,7 @@ const AboutMe = () => {
   return (
     <>
       <section className="about-me">
-        <Container>
+        <Container style={{ "padding-bottom": "100px" }}>
           <h1 className="text-center">About Me</h1>
           <h2 className="about-me__title text-center">
             ✈️ From Skies to Code Lines: My Journey
