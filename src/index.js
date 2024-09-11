@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MainPage from "./components/MainPage.jsx";
 import AboutMe from "./components/AboutMe.jsx";
 import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
 import "./index.css";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
@@ -19,6 +20,7 @@ root.render(
           <Route index element={<MainPage />} />
           <Route path="aboutme" element={<AboutMe />} />
           <Route path="work" element={<Projects />} />
+          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
