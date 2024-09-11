@@ -221,8 +221,7 @@ body {
   padding: 1.5rem;
   text-align: left;
   transition: transform 0.2s ease;
-  width: 500px;
-  height: 700px;
+  height: 100%
 }
 
 .project-card:hover {
