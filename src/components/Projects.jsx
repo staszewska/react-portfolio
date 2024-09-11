@@ -14,7 +14,7 @@ function Projects() {
       <Container>
         <Row className="project-grid">
           {/* Meet App */}
-          <Col className="grid-item">
+          <Col xs={12} md={6} className="grid-item">
             <div className="project-card">
               <h2 className="grid-item__title">
                 <a
@@ -46,7 +46,7 @@ function Projects() {
           </Col>
 
           {/* Pokedox App */}
-          <Col className="grid-item">
+          <Col md={6} xs={12} className="grid-item">
             <div className="project-card">
               <h2 className="grid-item__title">
                 <a
@@ -74,9 +74,11 @@ function Projects() {
               </div>
             </div>
           </Col>
+        </Row>
 
+        <Row className="project-grid">
           {/* Ecommerce React App */}
-          <Col className="grid-item">
+          <Col md={6} xs={12} className="grid-item">
             <div className="project-card">
               <h2 className="grid-item__title">
                 <a
@@ -112,7 +114,7 @@ function Projects() {
           </Col>
 
           {/* MyFlix App */}
-          <Col className="grid-item">
+          <Col md={6} xs={12} className="grid-item">
             <div className="project-card">
               <h2 className="grid-item__title">
                 <a
@@ -144,9 +146,11 @@ function Projects() {
               </div>
             </div>
           </Col>
+        </Row>
 
+        <Row className="project-grid">
           {/* MyFlixApp - Angular */}
-          <Col className="grid-item">
+          <Col md={6} xs={12} className="grid-item">
             <div className="project-card">
               <h2 className="grid-item__title">
                 {" "}
@@ -184,7 +188,7 @@ function Projects() {
           </Col>
 
           {/* ChatApp */}
-          <Col className="grid-item">
+          <Col md={6} xs={12} className="grid-item">
             <div className="project-card">
               <h2 className="grid-item__title">
                 <a href="#" target="_blank" rel="noopener noreferrer">
