@@ -24,7 +24,7 @@ function Footer() {
                 <img src={githubIcon} alt="github-icon" />
               </a>
               <a
-                href="https://www.linkedin.com/in/małgorzata-staszewska-bui-9ab346281"
+                href="https://www.linkedin.com/in/małgorzata-staszewska-bui"
                 target="_blank"
                 rel="noopener noreferrer"
               >
