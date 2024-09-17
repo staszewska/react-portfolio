@@ -7,19 +7,15 @@ function Footer() {
   return (
     <>
       <footer className="page-footer">
-        <Row>
-          <Col
-            lg={{ span: 4, offset: 4 }}
-            xs={12}
-            className="text-center"
-            style={{ "padding-top": "35px" }}
-          >
+        <Row className="footer-row" style={{ "padding-top": "50px" }}>
+          <Col lg={{ span: 4, offset: 4 }} xs={12} className="text-center">
             <h2>Find me on:</h2>
             <div className="social-media">
               <a
                 href="https://github.com/staszewska"
                 target="_blank"
                 rel="noopener noreferrer"
+                style={{ "padding-right": "10px" }}
               >
                 <img src={githubIcon} alt="github-icon" />
               </a>
