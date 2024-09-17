@@ -1,5 +1,5 @@
 import React from "react";
-import portfolioPicture from "../img/portfolio-picture.jpeg";
+import portfolioPicture from "../assets/portfolio-picture.jpeg";
 import { Container, Row, Col } from "react-bootstrap";
 
 function MainPage() {
