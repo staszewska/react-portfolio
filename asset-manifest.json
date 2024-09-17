@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.4cf86f69.css",
-    "main.js": "/react-portfolio/static/js/main.7456643f.js",
+    "main.css": "/react-portfolio/static/css/main.97ec5305.css",
+    "main.js": "/react-portfolio/static/js/main.969b7c45.js",
     "static/js/453.acca0757.chunk.js": "/react-portfolio/static/js/453.acca0757.chunk.js",
     "static/media/myFlixAngular.png": "/react-portfolio/static/media/myFlixAngular.786277bd1f74d3174a15.png",
     "static/media/myflix-react.png": "/react-portfolio/static/media/myflix-react.fd2b79809561fb166571.png",
@@ -15,12 +15,12 @@
     "static/media/github_icon.svg": "/react-portfolio/static/media/github_icon.66fc640346629928345850c291a43341.svg",
     "static/media/linkedin_icon.svg": "/react-portfolio/static/media/linkedin_icon.5b63599b59df7f23dbaea2b98f51c075.svg",
     "index.html": "/react-portfolio/index.html",
-    "main.4cf86f69.css.map": "/react-portfolio/static/css/main.4cf86f69.css.map",
-    "main.7456643f.js.map": "/react-portfolio/static/js/main.7456643f.js.map",
+    "main.97ec5305.css.map": "/react-portfolio/static/css/main.97ec5305.css.map",
+    "main.969b7c45.js.map": "/react-portfolio/static/js/main.969b7c45.js.map",
     "453.acca0757.chunk.js.map": "/react-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cf86f69.css",
-    "static/js/main.7456643f.js"
+    "static/css/main.97ec5305.css",
+    "static/js/main.969b7c45.js"
   ]
 }
