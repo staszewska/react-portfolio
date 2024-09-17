@@ -285,9 +285,15 @@ body {
 }
 
 .contact-me__title {
-  padding: 50px;
+  font-style: italic;
+  font-weight: 100;
+  
+  margin: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contact-me__info {
-  margin-bottom: 100px
+  /* margin-bottom: 100px */
 }
