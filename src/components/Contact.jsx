@@ -5,7 +5,9 @@ function Contact() {
     <>
       <section className="contact-me">
         <div className="contact-me__info">
-          <h1 className="contact-me__title">Contact me</h1>
+          <div className="contact-me__title">
+            <h1 style={{ fontWeight: "lighter" }}>Contact me</h1>
+          </div>
           <h3>Malgorzata Staszewska-Bui</h3>
           <h3>Cologne, Germany</h3>
           <p>
