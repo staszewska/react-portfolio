@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.f70da633.css",
+    "main.js": "/react-portfolio/static/js/main.eba4d906.js",
+    "static/js/453.acca0757.chunk.js": "/react-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/myFlixAngular.png": "/react-portfolio/static/media/myFlixAngular.786277bd1f74d3174a15.png",
+    "static/media/myflix-react.png": "/react-portfolio/static/media/myflix-react.fd2b79809561fb166571.png",
+    "static/media/ecommerce.png": "/react-portfolio/static/media/ecommerce.4d6d50d209e79b197d30.png",
+    "static/media/chat-app.png": "/react-portfolio/static/media/chat-app.249176d33f50d6c6f9ea.png",
+    "static/media/IMG_9903.jpg": "/react-portfolio/static/media/IMG_9903.280ef25678a825bd4d99.jpg",
+    "static/media/meet.png": "/react-portfolio/static/media/meet.0de1b180d1e42ef1f0d5.png",
+    "static/media/pokedox.png": "/react-portfolio/static/media/pokedox.04d7c4311fbc98bc463c.png",
+    "static/media/portfolio-picture.jpeg": "/react-portfolio/static/media/portfolio-picture.2d8c41ee38de7cab3abd.jpeg",
+    "static/media/github_icon.svg": "/react-portfolio/static/media/github_icon.66fc640346629928345850c291a43341.svg",
+    "static/media/linkedin_icon.svg": "/react-portfolio/static/media/linkedin_icon.5b63599b59df7f23dbaea2b98f51c075.svg",
+    "index.html": "/react-portfolio/index.html",
+    "main.f70da633.css.map": "/react-portfolio/static/css/main.f70da633.css.map",
+    "main.eba4d906.js.map": "/react-portfolio/static/js/main.eba4d906.js.map",
+    "453.acca0757.chunk.js.map": "/react-portfolio/static/js/453.acca0757.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f70da633.css",
+    "static/js/main.eba4d906.js"
+  ]
+}
