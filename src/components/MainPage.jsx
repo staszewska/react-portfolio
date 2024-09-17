@@ -29,7 +29,13 @@ function MainPage() {
                 My name is Gosia, and I'm based in Germany. Currently I am
                 learning to become a <i>web</i> developer.
               </p>
-              <a href="work.html">Check out some of my code</a>
+              <a
+                href="https://github.com/staszewska"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Checkout some of my code
+              </a>
             </div>
           </Col>
         </Row>
