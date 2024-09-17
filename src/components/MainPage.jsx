@@ -26,15 +26,16 @@ function MainPage() {
             <div className="profile-text text-center">
               <h1>Hello World!</h1>
               <p>
-                My name is Gosia, and I'm based in Germany. Currently I am
-                learning to become a <i>web</i> developer.
+                Hi, I'm Gosia, based in Germany. I'm actively seeking a junior
+                developer role to apply my skills and contribute to exciting
+                projects in IT.
               </p>
               <a
                 href="https://github.com/staszewska"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Checkout some of my code
+                Check out some of my code
               </a>
             </div>
           </Col>
