@@ -1,6 +1,6 @@
 import React from "react";
-import linkedinIcon from "../img/linkedin_icon.svg";
-import githubIcon from "../img/github_icon.svg";
+import linkedinIcon from "../assets/linkedin_icon.svg";
+import githubIcon from "../assets/github_icon.svg";
 import { Row, Col } from "react-bootstrap";
 
 function Footer() {

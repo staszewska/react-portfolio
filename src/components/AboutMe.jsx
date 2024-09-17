@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImage from "../img/IMG_9903.jpg";
+import myImage from "../assets/IMG_9903.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faReact,
@@ -14,6 +14,7 @@ import {
   faCss3Alt,
 } from "@fortawesome/free-brands-svg-icons";
 import { faNetworkWired } from "@fortawesome/free-solid-svg-icons";
+import myCV from "../assets/Staszewska-Bui-Malgorzata-Resume-v6.pdf";
 
 const AboutMe = () => {
   return (
@@ -100,12 +101,23 @@ const AboutMe = () => {
                 </a>
 
                 <a
-                  href="/path_to_your_cv.pdf"
-                  className="btn btn-secondary m-2"
-                  download="Gosia_CV.pdf"
+                  href={myCV}
+                  className="btn btn-primary m-2"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  Download My CV
+                  View My CV
                 </a>
+                {/* <button
+                  onClick={() =>
+                    window.open(
+                      "../assets/Staszewska-Bui-Malgorzata-Resume-v6.pdf",
+                      "_blank"
+                    )
+                  }
+                >
+                  View My CV
+                </button> */}
               </div>
             </Col>
           </Row>

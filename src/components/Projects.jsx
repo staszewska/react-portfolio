@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import MeetApp from "../img/meet.png";
-import Pokedox from "../img/pokedox.png";
-import Ecommerce from "../img/ecommerce.png";
-import MyFlix from "../img/myflix-react.png";
-import MyFlixAngular from "../img/myFlixAngular.png";
-import ChatApp from "../img/chat-app.png";
+import MeetApp from "../assets/meet.png";
+import Pokedox from "../assets/pokedox.png";
+import Ecommerce from "../assets/ecommerce.png";
+import MyFlix from "../assets/myflix-react.png";
+import MyFlixAngular from "../assets/myFlixAngular.png";
+import ChatApp from "../assets/chat-app.png";
 
 function Projects() {
   return (
