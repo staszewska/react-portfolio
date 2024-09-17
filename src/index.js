@@ -1,6 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Route, Routes, Switch } from "react-router-dom";
+
 import MainPage from "./components/MainPage.jsx";
 import AboutMe from "./components/AboutMe.jsx";
 import Projects from "./components/Projects.jsx";
@@ -12,7 +14,8 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* <BrowserRouter> */}
+    <Router>
       <Routes>
         {/* Wrapping all routes with the App component */}
         <Route path="/" element={<App />}>
@@ -23,7 +26,8 @@ root.render(
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
-    </BrowserRouter>
+    </Router>
+    {/* </BrowserRouter> */}
   </React.StrictMode>
 );
 
