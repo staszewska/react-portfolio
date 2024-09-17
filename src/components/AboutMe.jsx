@@ -108,16 +108,6 @@ const AboutMe = () => {
                 >
                   View My CV
                 </a>
-                {/* <button
-                  onClick={() =>
-                    window.open(
-                      "../assets/Staszewska-Bui-Malgorzata-Resume-v6.pdf",
-                      "_blank"
-                    )
-                  }
-                >
-                  View My CV
-                </button> */}
               </div>
             </Col>
           </Row>
