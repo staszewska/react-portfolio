@@ -210,13 +210,6 @@ body {
   color: #333;
 }
 
-.project-grid {
-  display: flex;
-  flex-wrap: wrap;
-  /* gap: 2rem; */
-  justify-content: center;
-}
-
 .grid-item {
   /* flex: 1 1 30%; */
   margin-bottom: 2rem;
