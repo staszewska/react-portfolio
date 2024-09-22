@@ -64,11 +64,13 @@ function Projects() {
     <section className="projects-section">
       <h1 className="work-title">Work</h1>
       <Container>
-        {projectsData.map((project, index) => (
-          <Row key={index} className="project-grid">
-            <ProjectCard {...project} />
-          </Row>
-        ))}
+        <Row>
+          {projectsData.map((project, index) => (
+            <Col key={index} xs={12} md={6} className="grid-item">
+              <ProjectCard {...project} />
+            </Col>
+          ))}
+        </Row>
         {/* <Row className="project-grid"> */}
         {/* Meet App */}
         {/* <Col xs={12} md={6} className="grid-item">
