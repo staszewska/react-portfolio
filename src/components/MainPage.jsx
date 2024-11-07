@@ -26,7 +26,7 @@ function MainPage() {
             <div className="profile-text text-center">
               <h1>Hello World!</h1>
               <p>
-                Hi, I'm Gosia, based in Germany. I'm actively seeking a junior
+                I'm Gosia, based in Germany. I'm actively seeking a junior
                 developer role to apply my skills and contribute to exciting
                 projects in IT.
               </p>
